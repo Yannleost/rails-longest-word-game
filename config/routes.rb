@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'new', to: 'game#new'
-  get 'score', to: 'game#score'
+  get 'new', to: 'games#new'
+  get 'score', to: 'games#score'
 end
 
 
